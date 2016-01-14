@@ -3,10 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.redhat.bpms.examples</groupId>
-  <artifactId>mortgage</artifactId>
+  <artifactId>entertainment</artifactId>
   <version>1</version>
-  <name>Mortgage Demo</name>
-  <description>Mortgage application to demo basic features of BPMS 6</description>
+  <name>EpisodeMovieGapAnalysis</name>
+  <description>Find the missing images for Episodes or Movies</description>
   <repositories>
     <repository>
       <id>bpms-m2-repo</id>
@@ -14,4 +14,14 @@
       <url>http://localhost:8080/business-central/maven2/</url>
     </repository>
   </repositories>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.kie</groupId>
+        <artifactId>kie-maven-plugin</artifactId>
+        <version>6.3.0.Final-redhat-5</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
 </project>
