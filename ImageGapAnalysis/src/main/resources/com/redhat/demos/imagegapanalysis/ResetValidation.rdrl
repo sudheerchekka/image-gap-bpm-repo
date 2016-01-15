@@ -4,6 +4,9 @@ import java.lang.Number;
 
 rule "ResetValidation"
 	dialect "mvel"
+	ruleflow-group "resetValidation"
 	when
+		error : ValidationError( )
 	then
+		retract( error );
 end
