@@ -23,9 +23,6 @@ public class MovieEpisodeRequest implements java.io.Serializable
    @org.kie.api.definition.type.Label("Poster URL")
    private java.lang.String posterURL;
 
-   @org.kie.api.definition.type.Label(value = "Test attr1")
-   private java.lang.String testAttr1;
-
    public MovieEpisodeRequest()
    {
    }
@@ -90,20 +87,9 @@ public class MovieEpisodeRequest implements java.io.Serializable
       this.posterURL = posterURL;
    }
 
-   public java.lang.String getTestAttr1()
-   {
-      return this.testAttr1;
-   }
-
-   public void setTestAttr1(java.lang.String testAttr1)
-   {
-      this.testAttr1 = testAttr1;
-   }
-
    public MovieEpisodeRequest(java.lang.String name, java.lang.String type,
          java.util.Date airDate, java.lang.String releaseYear,
-         java.lang.String synopsis, java.lang.String posterURL,
-         java.lang.String testAttr1)
+         java.lang.String synopsis, java.lang.String posterURL)
    {
       this.name = name;
       this.type = type;
@@ -111,7 +97,6 @@ public class MovieEpisodeRequest implements java.io.Serializable
       this.releaseYear = releaseYear;
       this.synopsis = synopsis;
       this.posterURL = posterURL;
-      this.testAttr1 = testAttr1;
    }
 
 }
