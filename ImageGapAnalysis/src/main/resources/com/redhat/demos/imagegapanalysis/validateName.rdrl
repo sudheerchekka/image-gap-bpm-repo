@@ -1,0 +1,9 @@
+package com.redhat.demos.imagegapanalysis;
+
+import java.lang.Number;
+
+rule "validateName"
+	dialect "mvel"
+	when
+	then
+end
