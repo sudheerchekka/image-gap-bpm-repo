@@ -9,16 +9,19 @@ public class MovieEpisodeRequest implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Name")
+   @org.kie.api.definition.type.Label("Name")
    private java.lang.String name;
-   @org.kie.api.definition.type.Label(value = "Type")
+   @org.kie.api.definition.type.Label("Type")
    private java.lang.String type;
-   @org.kie.api.definition.type.Label(value = "Air Date")
+   @org.kie.api.definition.type.Label("Air Date")
    private java.util.Date airDate;
-   @org.kie.api.definition.type.Label(value = "Release Year")
+   @org.kie.api.definition.type.Label("Release Year")
    private java.lang.String releaseYear;
-   @org.kie.api.definition.type.Label(value = "Synopsis")
+   @org.kie.api.definition.type.Label("Synopsis")
    private java.lang.String synopsis;
+
+   @org.kie.api.definition.type.Label(value = "Poster URL")
+   private java.lang.String posterURL;
 
    public MovieEpisodeRequest()
    {
@@ -74,15 +77,26 @@ public class MovieEpisodeRequest implements java.io.Serializable
       this.synopsis = synopsis;
    }
 
+   public java.lang.String getPosterURL()
+   {
+      return this.posterURL;
+   }
+
+   public void setPosterURL(java.lang.String posterURL)
+   {
+      this.posterURL = posterURL;
+   }
+
    public MovieEpisodeRequest(java.lang.String name, java.lang.String type,
          java.util.Date airDate, java.lang.String releaseYear,
-         java.lang.String synopsis)
+         java.lang.String synopsis, java.lang.String posterURL)
    {
       this.name = name;
       this.type = type;
       this.airDate = airDate;
       this.releaseYear = releaseYear;
       this.synopsis = synopsis;
+      this.posterURL = posterURL;
    }
 
 }
