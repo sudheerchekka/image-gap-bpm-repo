@@ -9,7 +9,7 @@ public class MovieEpisodeRequest implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label("Name 952")
+   @org.kie.api.definition.type.Label("Name")
    private java.lang.String name;
    @org.kie.api.definition.type.Label("Type")
    private java.lang.String type;
