@@ -9,4 +9,5 @@ rule "ResetValidation"
 		error : ValidationError( )
 	then
 		retract( error );
+		System.out.println("Executed Rule: " + drools.getRule().getName() );
 end
