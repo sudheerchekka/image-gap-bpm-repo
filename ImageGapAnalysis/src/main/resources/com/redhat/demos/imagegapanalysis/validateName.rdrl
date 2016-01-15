@@ -5,5 +5,6 @@ import java.lang.Number;
 rule "validateName"
 	dialect "mvel"
 	when
+		MovieEpisodeRequest( name == null )
 	then
 end
