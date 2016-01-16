@@ -62,6 +62,7 @@
 <dataHolder inputId="" name="#B29FE4" type="basicType" outId="airDate" value="java.lang.String" id="airDate"/>
 <dataHolder inputId="" name="#A7E690" type="basicType" outId="country" value="java.lang.String" id="country"/>
 <dataHolder inputId="" name="#FF54A7" type="basicType" outId="movieEpisodeName" value="java.lang.String" id="movieEpisodeName"/>
+<dataHolder inputId="taskInputApplication" name="#0000A0" type="dataModelerEntry" outId="taskOutputApplication" value="com.redhat.demos.imagegapanalysis.MovieEpisodeRequest" id="movieEpisodeRequest"/>
 <dataHolder inputId="" name="#FF54A7" type="basicType" outId="movieName" value="java.lang.String" id="movieName"/>
 <dataHolder inputId="" name="#9BCAFA" type="basicType" outId="releaseYear" value="java.lang.String" id="releaseYear"/>
 </form>
