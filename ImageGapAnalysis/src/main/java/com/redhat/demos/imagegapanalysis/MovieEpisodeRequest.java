@@ -23,6 +23,9 @@ public class MovieEpisodeRequest implements java.io.Serializable
    @org.kie.api.definition.type.Label("Poster URL")
    private java.lang.String posterURL;
 
+   @org.kie.api.definition.type.Label(value = "Country")
+   private java.lang.String country;
+
    public MovieEpisodeRequest()
    {
    }
@@ -87,9 +90,20 @@ public class MovieEpisodeRequest implements java.io.Serializable
       this.posterURL = posterURL;
    }
 
+   public java.lang.String getCountry()
+   {
+      return this.country;
+   }
+
+   public void setCountry(java.lang.String country)
+   {
+      this.country = country;
+   }
+
    public MovieEpisodeRequest(java.lang.String name, java.lang.String type,
          java.util.Date airDate, java.lang.String releaseYear,
-         java.lang.String synopsis, java.lang.String posterURL)
+         java.lang.String synopsis, java.lang.String posterURL,
+         java.lang.String country)
    {
       this.name = name;
       this.type = type;
@@ -97,6 +111,7 @@ public class MovieEpisodeRequest implements java.io.Serializable
       this.releaseYear = releaseYear;
       this.synopsis = synopsis;
       this.posterURL = posterURL;
+      this.country = country;
    }
 
 }
