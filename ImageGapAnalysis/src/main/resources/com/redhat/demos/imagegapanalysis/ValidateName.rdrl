@@ -11,4 +11,5 @@ rule "ValidateName"
 		ValidationError error = new ValidationError();
 		error.setCause( "There has to be a title for this movie or episode" );
 		insert( error );
+		System.out.println("movie or episode is missing");
 end
