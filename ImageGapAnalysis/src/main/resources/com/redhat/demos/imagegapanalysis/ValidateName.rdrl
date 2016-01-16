@@ -8,7 +8,7 @@ rule "ValidateName"
 	when
 		MovieEpisodeRequest( name == null )
 	then
-		ValidationError fact0 = new ValidationError();
-		fact0.setCause( "There has to be a title for this movie or episode" );
-		insert( fact0 );
+		ValidationError error = new ValidationError();
+		error.setCause( "There has to be a title for this movie or episode" );
+		insert( error );
 end
