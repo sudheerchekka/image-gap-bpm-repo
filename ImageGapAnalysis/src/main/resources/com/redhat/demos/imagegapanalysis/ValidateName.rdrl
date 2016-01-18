@@ -4,7 +4,7 @@ import java.lang.Number;
 
 rule "ValidateName"
 	dialect "mvel"
-	ruleflow-group "validation"
+	ruleflow-group "validationImage"
 	when
 		MovieEpisodeRequest( name == null , name == "" )
 	then
