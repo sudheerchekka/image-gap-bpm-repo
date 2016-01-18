@@ -9,7 +9,7 @@ rule "ValidateName"
 		MovieEpisodeRequest( name == null )
 	then
 		ValidationError error = new ValidationError();
-		error.setCause( "There is no title for this movie or episode" );
+		error.setCause( "There is no title for this movie or episode !!" );
 		insert( error );
 		System.out.println("Executed Rule: "  + drools.getRule().getName() );
 end
