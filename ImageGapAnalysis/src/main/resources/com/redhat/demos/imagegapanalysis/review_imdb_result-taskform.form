@@ -1,0 +1,63 @@
+
+<form id="2111473567">
+<property name="name" value="review_imdb_result-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="6" name="movieEpisodeRequest_type" type="InputText" id="718738185">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;type (movieEpisodeRequest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskInputApplication/type"/>
+<property name="outputBinding" value="taskOutputApplication/type"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="movieEpisodeRequest_country" type="InputText" id="1243902141">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;country (movieEpisodeRequest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskInputApplication/country"/>
+<property name="outputBinding" value="taskOutputApplication/country"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="movieEpisodeRequest_synopsis" type="InputText" id="753885253">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;synopsis (movieEpisodeRequest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskInputApplication/synopsis"/>
+<property name="outputBinding" value="taskOutputApplication/synopsis"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="movieEpisodeRequest_releaseYear" type="InputText" id="1547444870">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;releaseYear (movieEpisodeRequest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskInputApplication/releaseYear"/>
+<property name="outputBinding" value="taskOutputApplication/releaseYear"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="movieEpisodeRequest_airDate" type="InputText" id="1724062820">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;airDate (movieEpisodeRequest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskInputApplication/airDate"/>
+<property name="outputBinding" value="taskOutputApplication/airDate"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="movieEpisodeRequest_posterURL" type="InputText" id="1589540705">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;posterURL (movieEpisodeRequest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskInputApplication/posterURL"/>
+<property name="outputBinding" value="taskOutputApplication/posterURL"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="movieEpisodeRequest_name" type="InputText" id="1209314692">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (movieEpisodeRequest)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taskInputApplication/name"/>
+<property name="outputBinding" value="taskOutputApplication/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="taskInputApplication" name="#0000A0" type="dataModelerEntry" outId="taskOutputApplication" value="com.redhat.demos.imagegapanalysis.MovieEpisodeRequest" id="movieEpisodeRequest"/>
+</form>
