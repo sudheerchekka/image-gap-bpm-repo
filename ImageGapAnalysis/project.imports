@@ -13,6 +13,9 @@
       <import>
         <type>javax.json.Json</type>
       </import>
+      <import>
+        <type>java.io.StringReader</type>
+      </import>
     </imports>
   </imports>
   <version>1.0</version>
