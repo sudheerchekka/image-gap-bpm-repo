@@ -10,6 +10,9 @@
       <import>
         <type>javax.json.stream.JsonParser</type>
       </import>
+      <import>
+        <type>javax.json.Json</type>
+      </import>
     </imports>
   </imports>
   <version>1.0</version>
