@@ -12,6 +12,11 @@
       <artifactId>javax.json</artifactId>
       <version>1.0</version>
     </dependency>
+    <dependency>
+      <groupId>com.redhat.demos.imagegap</groupId>
+      <artifactId>CustomWorkItemHandlers</artifactId>
+      <version>1.0.0</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
