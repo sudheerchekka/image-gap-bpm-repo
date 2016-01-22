@@ -9,8 +9,6 @@ public class MovieEpisodeRequest implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label("Id")
-   private java.lang.Integer id;
    @org.kie.api.definition.type.Label("Name")
    private java.lang.String name;
    @org.kie.api.definition.type.Label("Type")
@@ -30,16 +28,6 @@ public class MovieEpisodeRequest implements java.io.Serializable
 
    public MovieEpisodeRequest()
    {
-   }
-
-   public java.lang.Integer getId()
-   {
-      return id;
-   }
-
-   public void setId(java.lang.Integer id)
-   {
-      this.id = id;
    }
 
    public java.lang.String getName()
