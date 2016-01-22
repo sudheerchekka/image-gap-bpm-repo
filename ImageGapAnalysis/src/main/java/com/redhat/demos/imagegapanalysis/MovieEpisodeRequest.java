@@ -107,12 +107,11 @@ public class MovieEpisodeRequest implements java.io.Serializable
       this.country = country;
    }
 
-   public MovieEpisodeRequest(java.lang.Integer id, java.lang.String name,
+   public MovieEpisodeRequest(java.lang.String name,
          java.lang.String type, java.lang.String airDate,
          java.lang.String releaseYear, java.lang.String synopsis,
          java.lang.String posterURL, java.lang.String country)
    {
-      this.id = id;
       this.name = name;
       this.type = type;
       this.airDate = airDate;
