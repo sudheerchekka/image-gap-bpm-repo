@@ -56,6 +56,34 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "displayName" : "REST",
     "icon" : "defaultservicenodeicon.png"
+  ],
+  
+  [
+    "name" : "SearchImageInDB",
+    "parameters" : [
+        "Name" : new StringDataType()
+    ],
+    "results" : [
+    	"PosterId" : new StringDataType(),
+        "PosterUrl" : new StringDataType(),
+        "PosterDescription" : new StringDataType(),
+        "PosterTags" : new StringDataType()
+    ],
+    "displayName" : "SearchImageInDB",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  
+  [
+    "name" : "LinkImageInDB",
+    "parameters" : [
+    	"PosterId" : new StringDataType(),
+        "PosterUrl" : new StringDataType(),
+        "PosterDescription" : new StringDataType(),
+        "PosterTags" : new StringDataType(),
+        "MovieRequestEpisode" : new ObjectDataType("com.redhat.demos.imagegapanalysis.MovieRequestEpisode")
+    ],
+    "displayName" : "LinkImageInDB",
+    "icon" : "defaultservicenodeicon.png"
   ]
 
 ]
