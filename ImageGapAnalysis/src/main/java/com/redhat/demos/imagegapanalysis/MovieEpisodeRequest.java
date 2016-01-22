@@ -99,18 +99,6 @@ public class MovieEpisodeRequest implements java.io.Serializable
       this.posterURL = posterURL;
    }
 
-   public MovieEpisodeRequest(java.lang.String name, java.lang.String type,
-         java.util.Date airDate, java.lang.String releaseYear,
-         java.lang.String synopsis, java.lang.String posterURL)
-   {
-      this.name = name;
-      this.type = type;
-      this.airDate = airDate;
-      this.releaseYear = releaseYear;
-      this.synopsis = synopsis;
-      this.posterURL = posterURL;
-   }
-
    public MovieEpisodeRequest(java.lang.Integer id, java.lang.String name,
          java.lang.String type, java.lang.String airDate,
          java.lang.String releaseYear, java.lang.String synopsis,
