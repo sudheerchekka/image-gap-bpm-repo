@@ -15,7 +15,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
   ],
 
   [
-    "name" : "Log1",
+    "name" : "Log",
     "parameters" : [
       "Message" : new StringDataType()
     ],
