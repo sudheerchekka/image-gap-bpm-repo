@@ -112,5 +112,11 @@ public class MovieEpisodeRequest implements java.io.Serializable
       this.synopsis = synopsis;
       this.posterURL = posterURL;
    }
+   
+   public static String encodeString(String toEncode) {
+		String toReturn = "no%20value";
+		toReturn = toEncode.replaceAll("\\s+", "%20");
+		return toReturn;
+	}
 
 }
