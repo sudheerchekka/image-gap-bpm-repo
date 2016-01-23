@@ -49,6 +49,5 @@
 </field>
 <dataHolder inputId="" name="#0000A0" type="basicType" outId="country" value="java.lang.String" id="country"/>
 <dataHolder inputId="" name="#0000A0" type="basicType" outId="movieEpisodeName" value="java.lang.String" id="movieEpisodeName"/>
-<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="movieEpisodeRequest" value="com.redhat.demos.imagegapanalysis.MovieEpisodeRequest" id="movieEpisodeRequest"/>
 <dataHolder inputId="" name="#0000A0" type="basicType" outId="releaseYear" value="java.lang.String" id="releaseYear"/>
 </form>
