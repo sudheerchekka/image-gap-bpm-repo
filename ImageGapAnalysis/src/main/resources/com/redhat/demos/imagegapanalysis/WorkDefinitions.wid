@@ -84,7 +84,8 @@ import org.drools.core.process.core.datatype.impl.type.IntegerDataType;
         "MovieEpisodeName" : new StringDataType(),
         "ReleaseYear" : new IntegerDataType(),
         "AirDate" : new StringDataType(),
-        "Country" : new StringDataType()
+        "Country" : new StringDataType(),
+        "MovieType" : new StringDataType()
     ],
     "displayName" : "LinkImageInDB",
     "icon" : "defaultservicenodeicon.png"
