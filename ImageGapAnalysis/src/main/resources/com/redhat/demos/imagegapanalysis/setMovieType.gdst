@@ -32,15 +32,15 @@
         <condition-column52>
           <typedDefaultValue>
             <valueString></valueString>
-            <dataType>STRING</dataType>
+            <dataType>NUMERIC_INTEGER</dataType>
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>-1</width>
-          <header>releaseYear2 &gt;=</header>
+          <header>Release Year &gt;=</header>
           <constraintValueType>1</constraintValueType>
-          <factField>releaseYear2</factField>
-          <fieldType>Integer</fieldType>
+          <factField>releaseYear</factField>
+          <fieldType>String</fieldType>
           <operator>&gt;=</operator>
           <parameters/>
         </condition-column52>
@@ -52,15 +52,16 @@
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
           <width>-1</width>
-          <header>&lt; releaseYear2</header>
+          <header>&lt; Release Year</header>
           <constraintValueType>1</constraintValueType>
-          <factField>releaseYear2</factField>
-          <fieldType>Integer</fieldType>
+          <factField>releaseYear</factField>
+          <fieldType>String</fieldType>
           <operator>&lt;</operator>
           <parameters/>
         </condition-column52>
       </conditions>
       <window>
+        <operator></operator>
         <parameters/>
       </window>
     </Pattern52>
@@ -132,15 +133,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">1970</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
+        <valueString>1970</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">1980</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
+        <valueString>1980</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
