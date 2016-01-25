@@ -16,7 +16,7 @@ public class MovieEpisodeRequest implements java.io.Serializable
    @org.kie.api.definition.type.Label("Air Date")
    private String airDate;
    @org.kie.api.definition.type.Label("Release Year")
-   private Integer releaseYear;
+   private String releaseYear;
    @org.kie.api.definition.type.Label("Synopsis")
    private java.lang.String synopsis;
 
@@ -28,6 +28,9 @@ public class MovieEpisodeRequest implements java.io.Serializable
 
    @org.kie.api.definition.type.Label("id")
    private java.lang.Integer id;
+
+   @org.kie.api.definition.type.Label(value = "releaseYear2")
+   private java.lang.Integer releaseYear2;
 
    public MovieEpisodeRequest()
    {
@@ -110,20 +113,31 @@ public class MovieEpisodeRequest implements java.io.Serializable
       this.id = id;
    }
 
-   public java.lang.Integer getReleaseYear()
+   public java.lang.String getReleaseYear()
    {
       return this.releaseYear;
    }
 
-   public void setReleaseYear(java.lang.Integer releaseYear)
+   public void setReleaseYear(java.lang.String releaseYear)
    {
       this.releaseYear = releaseYear;
    }
 
+   public java.lang.Integer getReleaseYear2()
+   {
+      return this.releaseYear2;
+   }
+
+   public void setReleaseYear2(java.lang.Integer releaseYear2)
+   {
+      this.releaseYear2 = releaseYear2;
+   }
+
    public MovieEpisodeRequest(java.lang.String name, java.lang.String type,
-         java.lang.String airDate, java.lang.Integer releaseYear,
+         java.lang.String airDate, java.lang.String releaseYear,
          java.lang.String synopsis, java.lang.String posterURL,
-         java.lang.String country, java.lang.Integer id)
+         java.lang.String country, java.lang.Integer id,
+         java.lang.Integer releaseYear2)
    {
       this.name = name;
       this.type = type;
@@ -133,6 +147,7 @@ public class MovieEpisodeRequest implements java.io.Serializable
       this.posterURL = posterURL;
       this.country = country;
       this.id = id;
+      this.releaseYear2 = releaseYear2;
    }
 
 }
