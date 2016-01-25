@@ -40,7 +40,7 @@
           <header>Release Year &gt;=</header>
           <constraintValueType>1</constraintValueType>
           <factField>releaseYear</factField>
-          <fieldType>String</fieldType>
+          <fieldType>Integer</fieldType>
           <operator>&gt;=</operator>
           <parameters/>
         </condition-column52>
@@ -55,7 +55,7 @@
           <header>&lt; Release Year</header>
           <constraintValueType>1</constraintValueType>
           <factField>releaseYear</factField>
-          <fieldType>String</fieldType>
+          <fieldType>Integer</fieldType>
           <operator>&lt;</operator>
           <parameters/>
         </condition-column52>
@@ -133,13 +133,15 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1990</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="int">1990</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>2000</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="int">2000</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -166,13 +168,15 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1980</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="int">1980</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1990</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="int">1990</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -199,8 +203,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>2000</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="int">2000</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -209,7 +214,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Recent years</valueString>
+        <valueString>Recent years!!</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -232,13 +237,15 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1970</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="int">1970</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1980</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="int">1980</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -265,13 +272,15 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1960</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="int">1960</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1970</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="int">1970</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -298,13 +307,15 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1950</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="int">1950</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1960</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="int">1960</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -337,8 +348,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1950</valueString>
-        <dataType>STRING</dataType>
+        <valueNumeric class="int">1950</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
