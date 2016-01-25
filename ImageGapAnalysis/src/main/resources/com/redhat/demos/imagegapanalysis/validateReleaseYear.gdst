@@ -60,7 +60,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>-1</width>
+      <width>103</width>
       <header>Movie Type</header>
       <boundName>movieEpisodeRequest</boundName>
       <factField>type</factField>
