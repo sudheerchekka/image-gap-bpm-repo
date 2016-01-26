@@ -6,7 +6,7 @@ rule "ValidateName"
 	dialect "mvel"
 	ruleflow-group "validationImage"
 	when
-		MovieEpisodeRequest( name == "" )
+		MovieEpisodeRequest( name == "" , name == null )
 	then
 		ValidationError error = new ValidationError();
 		error.setCause( "There is no title for this movie or episode !!" );
