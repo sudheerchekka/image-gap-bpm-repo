@@ -75,7 +75,7 @@
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>Movie Type</header>
+      <header>Movie Era</header>
       <boundName>mr</boundName>
       <factField>type</factField>
       <type>String</type>
